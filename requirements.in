@@ -1,0 +1,9 @@
+libtiff==0.4.0              # file io for tiff images
+matplotlib==1.5.3           # plotting
+mpldatacursor==0.6.2        # interactive data cursors on matplotlib figures
+nose==1.3.7                 # unit testing
+Pillow==3.4.1               # python imaging library
+pip-tools==1.7.0            # generates a requirements.txt from this file
+pypng==0.0.18               # file io for png images
+scikit-learn==0.18          # machine learning routines
+scipy==0.18.1               # scientific computing
