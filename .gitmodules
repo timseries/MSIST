@@ -1,0 +1,9 @@
+[submodule "py_operators"]
+	path = py_operators
+	url = https://github.com/timseries/py_operators
+[submodule "py_solvers"]
+	path = py_solvers
+	url = https://github.com/timseries/py_solvers
+[submodule "py_utils"]
+	path = py_utils
+	url = https://github.com/timseries/py_utils
