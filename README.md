@@ -1,4 +1,6 @@
-#MSIST and Variants: Installation, Organization, and Usage
+#MSIST and Variants
+
+Fast iterative solvers for linear inverse problems in imaging.
 
 ##Download and Installation
 
@@ -42,3 +44,4 @@ You should see a series of two prompts with numerical options.
     2. The second prompt corresponds to configuration file (.ini) within the chosen application category.
 
 
+###[References](https://drive.google.com/open?id=0B9NAB6NG4hq1SVVQQUpaUjZidlU)
