@@ -2,11 +2,13 @@
 
 ##Download and Installation
 
-1. git clone --recursive http://github.com/timseries/msist.git
+1. ```git clone --recursive http://github.com/timseries/msist.git```
 
 2. Install dependencies (optionally in a virtual environment) using the instructions above.
-2.1 ```pip install requirements.txt```
-2.2 The python wrapper for libtiff has separate dependenices, which will need to be installed separately:
+
+```pip install requirements.txt```
+
+The python wrapper for libtiff has separate dependenices, which will need to be installed separately:
 
 Linux: ```sudo apt-get install libtiff```
 
