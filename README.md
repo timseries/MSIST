@@ -22,7 +22,7 @@ The data for all experiments can downloaded [here](https://drive.google.com/open
 
 ###Configurations 
 
-The software is bundled with several example configuration files, which are located in /py_solvers/application/<application_name>/config where <application_name> is one of:
+The software is bundled with several example configuration files, which are categorized by application:
 
 mixed_poisson_gaussian, superresolution, compressed_sensing, deconvolution
 
