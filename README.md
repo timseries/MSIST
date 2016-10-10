@@ -35,9 +35,9 @@ Other solvers are included for benchark comparisons.
 
 ##Usage
 
-In a terminal, change directory to the py_solvers directory:
+From this directory:
 
-```python run_application.py```
+```python py_solvers/run_application.py```
 
 You should see a series of two prompts with numerical options. 
     1. The first prompt corresponds to the application category. 
