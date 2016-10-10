@@ -1,33 +1,5 @@
 MSIST and Variants Installation, Organization, and Usage
 
-------------
-Dependencies
-------------
-
-The software is written in Python, and requires Python >=2.7. https://www.python.org/downloads/.
-The most up-to-date versions of the following freely-available Python packages are also required:
-
-<package name>: url
- 
-numpy: http://www.numpy.org/
-scipy: http://www.scipy.org/
-scikit-learn: http://scikit-learn.org/stable/
-matplotlib: http://matplotlib.org/
-nibabel: http://nipy.org/nibabel/
-libtiff: http://www.libtiff.org/
-nose: https://nose.readthedocs.org/en/latest/
-mpldatacursor: https://pypi.python.org/pypi/mpldatacursor/
-pypng: http://pythonhosted.org/pypng/
-PIL: http://www.pythonware.com/products/pil/ 
-Note that Pillow is now available as a replacement for PIL: https://pypi.python.org/pypi/Pillow/)
-
-For convenience, all dependencies can be installed (optionally in a virtualenvironment) using:
-```pip install requirements.txt```
-
-They python wrapper for libtiff has separate dependenices, which will need to be installed separately:
-Linux: ```sudo apt-get install libtiff```
-MAC OSX: ```brew install libtiff```
-
 -------------------------
 Download and Installation
 -------------------------
@@ -35,12 +7,14 @@ Download and Installation
 
 2. Install dependencies (optionally in a virtual environment) using the instructions above.
 
+2.1 ```pip install requirements.txt```
+2.2 The python wrapper for libtiff has separate dependenices, which will need to be installed separately:
+Linux: ```sudo apt-get install libtiff```
+MAC OSX: ```brew install libtiff```
+
+
 3. Ensure this repo directory is added to your PYTHONPATH environment variable. In Linux, this can be accomplished by adding a line in the user's .bashrc file: export PYTHONPATH=$PYTHONPATH:<absolute path to this folder>
  
-4. Install the DT-CWT package: 
-   3.1 From <path to this folder>/py_operators/dtcwt/
-   ```python setup.py install```
-
 ------------
 Organization
 ------------
