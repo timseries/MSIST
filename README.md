@@ -14,7 +14,7 @@ Fast iterative solvers for linear inverse problems in imaging.
  
 ##Organization
 
-The software is organized with respect to conceptional unints of the MSIST algorithm and variants: [solvers](py_solvers), [operators] (py_operators), and [utlity functions andclasses](py_utils). Solvers and operators are instantiated from sections in the specified configuration *.ini file. In this way, experimental settings and model parameters are separated from code as much as possible. Utility functions and classes are used throughout to manage data and store or interactively display results.
+The software is organized with respect to conceptional unints of the MSIST algorithm and variants: [solvers](https://github.com/timseries/py_solvers), [operators] (https://github.com/timseries/py_operators), and [utlity functions and classes](https://github.com/timseries/py_utils). Solvers and operators are instantiated from sections in the specified configuration *.ini file. In this way, experimental settings and model parameters are separated from code as much as possible. Utility functions and classes are used throughout to manage data and store or interactively display results.
 
 ###Data 
 
