@@ -1,8 +1,8 @@
-#MSIST and Variants
+# MSIST and Variants
 
 Fast iterative solvers for linear inverse problems in imaging.
 
-##Download and Installation
+## Download and Installation
 
 1. ```git clone --recursive http://github.com/timseries/msist.git```
 
@@ -12,15 +12,15 @@ Fast iterative solvers for linear inverse problems in imaging.
 
 4. Ensure this repo directory is added to your PYTHONPATH environment variable. This can be accomplished by adding a line in your .bashrc or .bash_profile file: ```export PYTHONPATH=$PYTHONPATH:<absolute path to this folder>```
  
-##Organization
+## Organization
 
 The software is organized with respect to conceptional unints of the MSIST algorithm and variants: [solvers](https://github.com/timseries/py_solvers), [operators] (https://github.com/timseries/py_operators), and [utlity functions and classes](https://github.com/timseries/py_utils). Solvers and operators are instantiated from sections in the specified configuration *.ini file. In this way, experimental settings and model parameters are separated from code as much as possible. Utility functions and classes are used throughout to manage data and store or interactively display results.
 
-###Data 
+### Data 
 
 The data for all experiments can downloaded [here](https://drive.google.com/open?id=0B9NAB6NG4hq1UFo0aDhnaXFDSG8). This file should be decompressed to /py_solvers/application/.
 
-###Configurations 
+### Configurations 
 
 The software is bundled with several example configuration files, which are categorized by application:
 
@@ -28,12 +28,12 @@ mixed_poisson_gaussian, superresolution, compressed_sensing, deconvolution
 
 Note: mixed_poisson_gaussian is a deconvolution fluorescence microsocopy application.
 
-###Code 
+### Code 
 
 The implementation of the MSIST solver, and it's variants, is provided in subrepo py_sovlers: /py_solvers/so_msist.py.
 Other solvers are included for benchark comparisons. 
 
-##Usage
+## Usage
 
 From this directory:
 
@@ -44,4 +44,4 @@ You should see a series of two prompts with numerical options.
     2. The second prompt corresponds to configuration file (.ini) within the chosen application category.
 
 
-###[References](https://drive.google.com/open?id=0B9NAB6NG4hq1SVVQQUpaUjZidlU)
+### [References](https://drive.google.com/open?id=0B9NAB6NG4hq1SVVQQUpaUjZidlU)
